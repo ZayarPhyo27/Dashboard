@@ -1,0 +1,105 @@
+.status_Pending {
+    background: orange;
+    color: #eee;
+    padding: 5px 15px!important;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    min-width: 100px;
+}
+.user-footer a {
+    width: 100%;
+    margin-top: 5px;
+}
+span.status_Active, span.status_Approved, span.status_Pushed, span.status_Accepted {
+    background: green;
+    color: #eee;
+    padding: 5px 15px;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    min-width: 100px;
+}
+
+.status_Deactive{
+    background: red;
+    color: #eee;
+    padding: 5px 10px;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    min-width: 100px;
+}
+
+table.detail-table td {
+    border-left: 1px solid #dee2e6;
+}
+table.detail-table td, table.detail-table th {
+    padding: 0.75rem;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+}
+table.detail-table {
+    width: 100%;
+    color: #212529;
+    border: 1px solid #dee2e6;
+}
+table.detail-table tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.05);
+}
+.dataTables_filter{
+    display: none;
+}
+.data-table-show tbody td:nth-child(4), .data-table-show tbody td:nth-child(5) {
+    text-align: center;
+    vertical-align: middle;
+}
+.photo_upload_description {
+    font-size: 12px;
+    color: #dc3545;
+}
+.RS_role {
+    border: 1px solid #1a2cc9;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    -ms-flex: 0 0 23.7%!important;
+    flex: 0 0 23.7%!important;
+    max-width: 25%!important;
+    padding-top: 60px;
+    font-size: 15px;
+}
+.status-col,.action-col{
+    width: 10% !important;
+}
+.RS_role h6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #1a2cc9;
+    color: #fff;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.RS_role input[type="checkbox"] {
+    margin-right: 5px!important;
+}
+
+.RS_role span {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+table.dataTable img {
+    object-fit: contain;
+}
+.form-control {
+    border-color: #aaa;
+}
+table.detail-table th, table.detail-table td {
+    width: 50%!important;
+    word-break: break-word;
+}
