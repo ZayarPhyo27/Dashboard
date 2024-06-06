@@ -2,7 +2,7 @@
 
 return [
 
-    'firebase_server_key' =>'AAAAEZglbuI:APA91bGyJrOhMFvYTP9UII1PRsSOPW5t7y8zGYL1etuMRupj11M3lH2gwyKHOgbzzFO1pouQk3Vq1kRQdDwIAIPWjk8dRJYE61TFZDa95fNB7Ifb8F1rcYFmizQsxT5GTL1aoYjaYXHl',
+    'firebase_server_key' =>'sadfasdf',
     'firebase_url' => 'https://fcm.googleapis.com/fcm/send',
 
     "status" =>  [
